@@ -31,8 +31,13 @@ document.getElementById('user-name').innerHTML = userName
 
 // Operadores de comparação //
 
-var v1 = 5
-var v2 = '5'
+// var v1 = 5
+// var v2 = '5'
 
-var resultado = v1 !== v2
-console.log(resultado)
+// === avalia além da igualdade de valor, o tipo
+// == avalia somente a igualdade de valor sem considerar o tipo
+// !=== avalia além da diferença de valor, o tipo
+// !== avalia a diferenã de valor sem considerar o tipo
+
+// var resultado = v1 !== v2
+// console.log(resultado)
