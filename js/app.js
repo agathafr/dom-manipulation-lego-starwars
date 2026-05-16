@@ -16,15 +16,23 @@ document.getElementById('user-name').innerHTML = userName
 
 // Operadores matemáticos //
 
-var n1 = 5
-var n2 = 5
+// var n1 = 5
+// var n2 = 5
 
-console.log(typeof n1)
-console.log(typeof n2)
+// console.log(typeof n1)
+// console.log(typeof n2)
 
 // + para somar
 // - para subtrair
 // * para multiplicar
 // / para dividir
 
-var total = n1 + n2 
+// var total = n1 + n2 
+
+// Operadores de comparação //
+
+var v1 = 5
+var v2 = '5'
+
+var resultado = v1 !== v2
+console.log(resultado)
