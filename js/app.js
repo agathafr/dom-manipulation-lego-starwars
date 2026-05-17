@@ -110,19 +110,36 @@ document.getElementById('user-name').innerHTML = userName
 
 // console.log(gaveteiro[0])
 
+// var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vader']
+
+// personagens.push('C3PO')
+
+// personagens.push('R2D2')
+
+// // personagens.pop()
+
+// personagens = personagens.filter(function(p){
+//     return p !== 'Darth Vader'
+// })
+// personagens = personagens.filter(function(p){
+//     return p === 'Mestre Yoda'
+// })
+
+// console.log(personagens)
+
+// Controles de repetição (Loops)
+
 var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vader']
 
-personagens.push('C3PO')
+// personagens.forEach(function(p){
+//     console.log(p)
+// })
 
-personagens.push('R2D2')
+// for (var i in personagens) {
+//     console.log(personagens[i])
+// }
 
-// personagens.pop()
-
-personagens = personagens.filter(function(p){
-    return p !== 'Darth Vader'
-})
-personagens = personagens.filter(function(p){
-    return p === 'Mestre Yoda'
-})
-
-console.log(personagens)
+for (var i = 0; i <= 10; i++) {
+    console.log(i)
+    // código vai ser executado até a condição retornar false
+}
